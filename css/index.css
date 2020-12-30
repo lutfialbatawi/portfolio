@@ -1,0 +1,127 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black; 
+    margin: 2px auto;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.header {
+    text-align: center;
+}
+.profil {
+    border-radius: 100%;
+    height:200px;
+    width: 200px;
+}
+p.name-lutfi{
+    font-family: 'Hanalei Fill', cursive;
+    font-size: 30px;
+}
+#active-mobile:hover{
+    color: springgreen;
+}
+/* FORLAM*/
+p.formal {
+    font-family: 'Redressed', cursive;
+    text-align: center;
+    font-size: 20px;
+}
+/* skill */
+.tab-content.skill {
+    text-align: center;
+    color: chartreuse;
+}
+ul.nav.nav-pills.mb-3.my-2.file-skill li {
+    display: flex;
+}
+.nav-link.skill-radius {
+    box-shadow: 0px 30px 10px -20px rgba(0,0,0,75);border-radius: 15%;
+}
+.tab-content.skill {
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,75);
+    margin: 1px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+/* HOBBi */
+ span.previous-icon {
+     background-color: yellowgreen;
+     width: 25px;
+     height: 25px;
+     border-radius: 100%;
+ }
+ #animation-1 #animation-2 #animation-3 {
+     animation:zoom 2s ease;
+ }
+ @keyframes zoom {
+     0%{transform: scale(2);opacity: 0;}
+     100%{transform: scale(1);opacity:1;}
+ }
+ .kontak-gallery {
+     justify-content: center;
+     padding: 8px;
+     margin: 5px;
+ }
+ .card.card-gallery {
+     background-image: url(../asset/gallery/HE.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     margin: 5px;
+     width: 200px;
+     height: 200px;
+     border: 1px solid black;
+     cursor: pointer;
+     box-shadow: -5px -5px 10px 2px rgba(0,0,0,75);
+ }
+ .card.card-gallery .gallery-lolo-1:hover{
+     background-image: url(../asset/gallery/about-4.jpg);
+     width: 200px;
+     height: 200px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     top:-10px
+ }
+ .card.card-gallery .gallery-lolo-2:hover{
+    background-image: url(../asset/gallery/admin.jpg);
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card.card-gallery .gallery-lolo-3:hover{
+    background-image: url(../asset/gallery/IMG20201130175210.jpg);
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card.card-gallery .gallery-lolo-4:hover{
+    background-image: url(../asset/gallery/IMG20201222063917.jpg);
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card.card-gallery .gallery-lolo-5:hover{
+    background-image: url(../asset/gallery/IMG20201223150357.jpg);
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card.card-gallery .gallery-lolo-6:hover{
+    background-image: url(../asset/gallery/IMG20201223164816.jpg);
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* skil */
+.text-muted.card-text.font-weight-bold.mb-0 {
+    display: flex;
+    justify-content: center;
+}
+.text-muted.text-capitalize.mb-0 {
+    display: flex;
+    justify-content: center;
+}
